@@ -2,13 +2,6 @@
     font-size: 62.5%;
 }
 
-:root {
-    --bg-header: #fff;
-    --black-color: #14142B;
-    --red-color: rgb(183, 68, 68);
-    --transition: all 0.15s ease-in;
-}
-
 .header {
     width: 100%;
     height: 72px;

@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+:root {
+    --bg-header: #fff;
+    --black-color: #14142B;
+    --red-color: rgb(183, 68, 68);
+    --transition: all 0.15s ease-in;
+    --input-bg-color: #F4F2FF;
+    --input-text-color: #AFB0B9;
+    --blue-btn-bg: #503AE7;
+}

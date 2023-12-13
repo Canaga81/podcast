@@ -1,0 +1,106 @@
+/* Hero Section */
+
+.hero {
+    padding: 19.2rem 20.8rem;
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left */
+
+.hero_container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.hero_container-left .hero_title {
+    width: 440px;
+}
+
+.hero_container-left .hero_title .hero_title-h1 {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.hero_container-left .hero_text {
+    width: 466px;
+}
+
+.hero_container-left .hero_text .hero_text-p {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero_container-left .hero_input_submit {
+    display: flex;
+    align-items: center;
+}
+
+.hero_container-left .hero_input_submit .hero_input {
+    width: 33.2rem;
+    height: 4.8rem;
+    background-color: var(--input-bg-color);
+    border: none;
+    outline: none;
+    color: var(--input-text-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.87;
+    padding-left: 1.6rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.hero_container-left .hero_input_submit .hero_btn {
+    width: 15.4rem;
+    height: 4.8rem;
+    background-color: var(--blue-btn-bg);
+    border: none;
+    outline: none;
+    color: var(--input-bg-color);
+    font-family: Inter;
+    font-size: 1.8rem;
+    letter-spacing: 1.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.hero_container-left .hero_input_submit .hero_btn:hover {
+    opacity: 0.75;
+}
+
+/* Right */
+
+.hero_container-right .hero_images {
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.hero_container-right .hero_images .hero_img {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.hero_container-right .hero_images .hero_img:hover {
+    transform: scale(1.14);
+}
