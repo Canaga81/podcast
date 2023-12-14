@@ -1,11 +1,7 @@
-/* Section */
-
 .video {
     padding-right: 18.8rem;
     padding-bottom: 12.8rem;
 }
-
-/* Container */
 
 .video_container {
     display: flex;
