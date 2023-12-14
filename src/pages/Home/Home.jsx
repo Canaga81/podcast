@@ -4,7 +4,6 @@ import Speaking from '../../components/Speaking/Speaking'
 import Video from '../../components/Video/Video'
 
 const Home = () => {
-
   return (
 
     <>
@@ -17,7 +16,6 @@ const Home = () => {
     </>
 
   )
-
 }
 
 export default Home
