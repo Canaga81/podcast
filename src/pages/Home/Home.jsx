@@ -1,6 +1,7 @@
 import Hero from '../../components/Hero/Hero'
 import Companies from '../../components/Companies/Companies'
 import Speaking from '../../components/Speaking/Speaking'
+import Video from '../../components/Video/Video'
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Companies />
       <Speaking />
+      <Video />
       
     </>
 
