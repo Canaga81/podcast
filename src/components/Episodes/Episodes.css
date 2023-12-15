@@ -1,0 +1,72 @@
+.episodes {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.episodes_container {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
+
+.episodes_container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.episodes_container-top_left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.episodes_container-top_left h2 {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.episodes_container-top_left p {
+    width: 37.1rem;
+    height: 5.4rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.episodes_container-top_right .episodes_btn {
+    display: inline-flex;
+    padding: 1.2rem 3.2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    background: var(--blue-btn-bg);
+    color: var(--bg-header);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.episodes_container-top_right .episodes_btn:hover {
+    opacity: 0.78;
+}
+
+.episodes_container-bottom .cards_container {
+    display: flex;
+    align-items: center;
+    column-gap: 1.6rem;
+    row-gap: 6rem;
+    flex-wrap: wrap;
+}
