@@ -1,0 +1,64 @@
+.comments {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.comments_container {
+    display: flex;
+    flex-direction: column;
+    gap: 7.8rem;
+}
+
+.comments_container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.comments_container-top .comments_container-top_left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.comments_container-top .comments_container-top_left h2 {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.comments_container-top .comments_container-top_left p {
+    width: 50.9rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.comments_container-top_right svg .svg_left {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.comments_container-top_right svg .svg_left:hover {
+    opacity: 0.75;
+}
+.comments_container-top_right svg .svg_right {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.comments_container-top_right svg .svg_right:hover {
+    opacity: 0.75;
+}
+
+.comments_container-bottom .comments_container_items {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
