@@ -1,0 +1,93 @@
+.read {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.read_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.read_left-card {
+    width: 41.6rem;
+    height: 51.6rem;
+    background: var(--input-bg-color);
+}
+
+.read_left-card .read_left-card_head {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.read_left-card .read_left-card_head .read_title {
+    width: 33.3rem;
+    color: var(--text-black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.read_blue-btn {
+    color: var(--blue-btn-bg);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 150%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.read_blue-btn:hover {
+    opacity: 0.78;
+}
+
+.read_left-card .read_left-card_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read_right_card {
+    width: 41.6rem;
+    height: 51.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.read_right_card .read_right_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.read_right_card .read_right_card_text h3 {
+    width: 41.1rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.read_right_card .read_right_card_text p {
+    width: 37.1rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

@@ -5,8 +5,11 @@ import Video from '../../components/Video/Video'
 import Episodes from '../../components/Episodes/Episodes'
 import Comments from '../../components/Comments/Comments'
 import Inbox from '../../components/Inbox/Inbox'
+import Read from '../../components/Read/Read'
+
 
 const Home = () => {
+
   return (
 
     <>
@@ -18,11 +21,13 @@ const Home = () => {
       <Episodes />
       <Comments />
       <Inbox />
+      <Read />
       
     </>
 
   )
 
 }
+
 
 export default Home
