@@ -1,8 +1,17 @@
 import React from 'react'
+import Welcome from '../../components/Welcome/Welcome'
+import Companies from '../../components/Companies/Companies'
 
 const Host = () => {
   return (
-    <div>Host</div>
+
+    <>
+
+      <Welcome />
+      <Companies />
+      
+    </>
+
   )
 }
 
