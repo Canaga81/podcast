@@ -28,7 +28,7 @@ const Comments = () => {
                         </p>
                     </div>
 
-                    <div className="comments_container-top_right">
+                    {/* <div className="comments_container-top_right">
                         <div className="arrows_icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="128" height="48" viewBox="0 0 128 48" fill="none">
                                 <circle className='svg_left' cx="24" cy="24" r="24" fill="#503AE7" />
@@ -38,7 +38,7 @@ const Comments = () => {
                             </svg>
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
 
