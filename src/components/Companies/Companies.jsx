@@ -6,6 +6,7 @@ import Google_Podcast from '../../images/Google_Podcast.png';
 import Apple_Podcast from '../../images/Apple_Podcast.png';
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -23,7 +24,12 @@ const Companies = () => {
 
                 <Swiper
                     spaceBetween={100}
+                    loop
                     slidesPerView={5}
+                    autoplay = {{
+                        delay: 500
+                    }}
+                    modules={[Autoplay]}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >

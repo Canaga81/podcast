@@ -4,6 +4,7 @@ import comments from '../../images/CommentsData'
 import CommentsItem from '../CommentsItem/CommentsItem'
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -42,7 +43,7 @@ const Comments = () => {
                 </div>
 
                 <div className="comments_container-bottom">
-                    <Swiper
+                    <Swiper navigation={true} modules={[Navigation]} 
                     spaceBetween={60}
                     slidesPerView={3}
                     onSlideChange={() => console.log('slide change')}

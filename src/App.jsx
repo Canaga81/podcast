@@ -7,11 +7,16 @@ import About from './pages/About/About'
 import Blog from './pages/Blog/Blog'
 import Contact from './pages/Contact/Contact'
 import Header from './components/Header/Header'
+import Sponsors from './components/Sponsors/Sponsors'
+import Footer from './components/Footer/Footer'
+import Copyright from './components/Copyright/Copyright'
 
 function App() {
 
   return (
+
     <div>
+
       <BrowserRouter>
 
         <Header />
@@ -24,9 +29,17 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/contack' element={<Contact />} />
         </Routes>
+
+        <Sponsors />
+        <Footer />
+        <Copyright />
+
       </BrowserRouter>
+
     </div>
+
   )
+
 }
 
 export default App
