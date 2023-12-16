@@ -1,0 +1,55 @@
+.bigCards {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.bigCards_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigCards_container-card {
+    width: 30.8rem;
+    height: 46.4rem;
+    background-color: var(--blue-btn-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.bigCards_container-card:nth-child(1) {
+    margin-top: 12.6rem;
+}
+.bigCards_container-card:nth-child(3) {
+    margin-top: 12.6rem;
+}
+
+.bigCards_container-card .big_number_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.6rem;
+}
+
+.bigCards_container-card .big_number_text .big_number {
+    width: 22.5rem;
+    color: var(--input-bg-color);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.bigCards_container-card .big_number_text .big_text {
+    width: 22.5rem;
+    color: var(--input-bg-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
