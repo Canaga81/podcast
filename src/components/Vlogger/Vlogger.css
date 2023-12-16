@@ -1,0 +1,43 @@
+.vlogger {
+    padding: 0 8.7rem;
+    padding-bottom: 12.8rem;
+}
+
+.vlogger_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+}
+
+.vlogger_container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.vlogger_container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.vlogger_title {
+    width: 36.6812rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.vlogger_text {
+    width: 48rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
