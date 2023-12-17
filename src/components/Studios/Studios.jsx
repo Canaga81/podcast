@@ -6,7 +6,7 @@ const Studios = () => {
         <section className='studios'>
             <div className="studios_container">
                 <div className="studios_bg">
-                    <div className="studios_div"></div>
+                    <div className="studios_bg-green"></div>
                     <div className="studios_bg-blue">
                         <div className="studios_text_cont">
                             <p className='studios_bold_desc'>Featured</p>
