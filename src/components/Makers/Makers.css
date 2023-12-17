@@ -1,0 +1,70 @@
+.makers {
+    padding: 0 20.8rem;
+    padding-bottom: 6.4rem;
+}
+
+.makers_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.makers_container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.makers_container-left .makers_left_text_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.makers_container-left .makers_left_text_cont .makers_title {
+    width: 38.7rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.makers_container-left .makers_left_text_cont .makers_desc {
+    width: 63.6rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.makers_container-left .makers_left_text_cont .makers_ul {
+    padding-left: 1.5rem;
+}
+
+.makers_container-left .makers_left_text_cont .makers_ul .makers_li {
+    width: 44.8607rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.makers_container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.makers_container-right .makers_right-h3 {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
