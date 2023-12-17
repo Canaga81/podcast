@@ -1,6 +1,7 @@
 import React from 'react'
 import './DetailedCard.css'
 import Makers from '../Makers/Makers'
+import InformationPerson from '../InformationPerson/InformationPerson'
 
 const DetailedCard = (props) => {
 
@@ -34,6 +35,7 @@ const DetailedCard = (props) => {
             </section>
 
             <Makers />
+            <InformationPerson />
         </>
 
 

@@ -1,0 +1,63 @@
+.informationPerson {
+    padding-left: 20.8rem;
+    padding-bottom: 12.8rem;
+}
+
+
+.informationPerson_container {
+    display: flex;
+    align-items: center;
+    gap: 5.4rem;
+}
+
+.informationPerson_container .information_blue_div {
+    width: 1.6rem;
+    height: 21.1rem;
+    background: var(--blue-btn-bg);
+}
+
+.informationPerson_container .information_women {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.informationPerson_container .information_women .information_image {
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.informationPerson_container .information_women .person_name_job .person_name {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -1px;
+}
+
+.informationPerson_container .information_women .person_name_job .person_job {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.informationPerson_container .information_women .social_icons {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.informationPerson_container .information_desc .information_desc-p {
+    width: 32rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
