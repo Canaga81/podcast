@@ -1,0 +1,28 @@
+.filterButtons {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.btn_filter_cards {
+    display: flex;
+    padding: 1.2rem 3.2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 28.5px;
+    border: 1px solid var(--input-text-color);
+    background: transparent;
+    color: var(--input-text-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: var(--transition-delay);
+}
+
+.btn_filter_cards:hover {
+    background-color: var(--blue-btn-bg);
+    color: var(--input-bg-color);
+}
