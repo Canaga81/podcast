@@ -10,6 +10,7 @@ import Header from './components/Header/Header'
 import Sponsors from './components/Sponsors/Sponsors'
 import Footer from './components/Footer/Footer'
 import Copyright from './components/Copyright/Copyright'
+import InCard from './pages/InCard/InCard'
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contack' element={<Contact />} />
+          <Route path='/incard' element={<InCard />}>
+            <Route path=':incardId' element={<InCard />} />
+          </Route>
         </Routes>
 
         <Sponsors />
