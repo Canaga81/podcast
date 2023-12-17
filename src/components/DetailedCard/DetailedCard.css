@@ -1,0 +1,100 @@
+.detailedCard {
+    padding: 0 8rem;
+    padding-top: 6.4rem;
+    padding-bottom: 12.8rem;
+}
+
+.detailedCard_container {
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.detailedCard_container-left .detailedCard_container-left_image {
+    width: 61.6rem;
+    height: 40rem;
+}
+
+.detailedCard_container-left .detailedCard_container-left_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.detailedCard_container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.detailedCard_container-right .detailed_container_title_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.detailedCard_container-right .detailed_container_title_text .detailedCard_blue {
+    color: var(--blue-btn-bg);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.detailedCard_container-right .detailed_container_title_text .detailedCard_title_h2 {
+    width: 61.6rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+
+.detailedCard_container-right .detailed_desc .detailed_desc_p {
+    width: 61.4rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.detailedCard_container-right .detailed_container-button {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.2rem 3.2rem;
+    background-color: var(--blue-btn-bg);
+    width: 20.7rem;
+    height: 5.6rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: var(--transition-delay);
+}
+
+.detailedCard_container-right .detailed_container-button:hover {
+    opacity: 0.81;
+}
+
+.detailedCard_container-right .detailed_container-button .detailed_container-btn_text {
+    color: var(--bg-header);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.detailedCard_container-right .detailed_container-button .detailed_time {
+    color: var(--green-bg-color);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
