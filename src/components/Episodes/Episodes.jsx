@@ -8,7 +8,7 @@ const Episodes = () => {
     const [visible, setVisible] = useState(3);
 
     const showMoreMeals = () => {
-        setVisible(item => item += 3)
+        setVisible(item => item += 6)
     }
 
     return (

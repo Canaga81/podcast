@@ -1,8 +1,11 @@
 import React from 'react'
+import Studios from '../../components/Studios/Studios'
 
 const Podcasts = () => {
   return (
-    <div>Podcasts</div>
+    <>
+      <Studios />
+    </>
   )
 }
 
