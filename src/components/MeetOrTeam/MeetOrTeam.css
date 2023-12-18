@@ -1,0 +1,61 @@
+.meetOrTeam {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.meetOrTeam_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.9rem;
+}
+
+.meetOrTeam_container .meetOrTeam_title {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.meetOrTeam_cards_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meetOrTeam_card {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.meetOrTeam_card_name_job_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.meetOrTeam_card_name_job_icons .meetOrTeam_name {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.meetOrTeam_card_name_job_icons .meetOrTeam_job {
+    color: var(--job-text-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.meetOrTeam_card_name_job_icons .meetOrTeam_icons {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}

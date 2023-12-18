@@ -1,0 +1,37 @@
+.aboutTeam {
+    padding-bottom: 12.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutTeam_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.aboutTeam_container h2 {
+    width: 29.1rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.aboutTeam_content {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.aboutTeam_content .aboutTeam_desc {
+    width: 49.6rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

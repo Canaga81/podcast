@@ -6,6 +6,8 @@
     font-size: 62.5%;
 }
 
+
+
 :root {
     --bg-header: #fff;
     --black-color: #14142B;
@@ -18,4 +20,5 @@
     --green-bg-color: #1AD993;
     --transition-delay: all 0.25s ease-in;
     --text-black-color: #1F2022;
+    --job-text-color: #808080;
 }

@@ -1,0 +1,41 @@
+.aboutInfo {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.aboutInfo_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutInfo_container_item {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.aboutInfo_title_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.aboutInfo_title_desc .aboutInfo_title {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.aboutInfo_title_desc .aboutInfo_desc {
+    width: 40.5rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
