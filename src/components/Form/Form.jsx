@@ -6,6 +6,7 @@ import Spotify_item from '../../images/Spotify_item.png';
 import Soundcloud_item from '../../images/Soundcloud_item.png';
 
 const Form = () => {
+    
     return (
         <section className='form'>
             <div className="form_container">
