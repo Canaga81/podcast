@@ -11,6 +11,7 @@ import Sponsors from './components/Sponsors/Sponsors'
 import Footer from './components/Footer/Footer'
 import Copyright from './components/Copyright/Copyright'
 import InCard from './pages/InCard/InCard'
+import AllBlogItem from './pages/AllBlogItem/AllBlogItem'
 
 function App() {
 
@@ -32,6 +33,9 @@ function App() {
           <Route path='/contack' element={<Contact />} />
           <Route path='/incard' element={<InCard />}>
             <Route path=':incardId' element={<InCard />} />
+          </Route>
+          <Route path='/allblogitem' element={<AllBlogItem />}>
+            <Route path=':allblogitemId' element={<AllBlogItem />} />
           </Route>
           
         </Routes>

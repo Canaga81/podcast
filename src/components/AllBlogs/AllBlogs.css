@@ -1,0 +1,27 @@
+.allBlogs {
+    padding: 0 8rem;
+    padding-bottom: 12.8rem;
+}
+
+.allBlogs_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.allBlogs_container .all_blogs_head_title {
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.all_blogs_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 6.4rem;
+}
