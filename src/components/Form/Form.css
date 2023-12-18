@@ -1,0 +1,154 @@
+.form {
+    padding-top: 6.4rem;
+    padding-bottom: 12.8rem;
+    padding-left: 8rem;
+}
+
+.form_container {
+    display: flex;
+    /* align-items: center; */
+    gap: 6.4rem;
+}
+
+.form_container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.form_container-left .form_title_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.form_container-left .form_title_cont .form_title-h2 {
+    width: 56.3rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.form_container-left .form_title_cont .form_title-h3 {
+    color: var(--blue-btn-bg);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.form_container-left .form_content form {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.form_container-left .form_content form .form_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.form_container-left .form_content form .form_inputs input,
+.form_container-left .form_content form .form_inputs textarea {
+    width: 62.4rem;
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.6rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    background-color: var(--input-bg-color);
+}
+
+.form_container-left .form_content form .form_inputs input::placeholder {
+    color: var(--input-text-color);
+}
+
+.form_container-left .form_content form .form_inputs textarea {
+    height: 12.8rem;
+    resize: none;
+}
+
+.form_container-left .form_content form .form_btn {
+    width: 24%;
+    height: 4.8rem;
+    color: var(--bg-header);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: var(--blue-btn-bg);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.form_container-left .form_content form .form_btn:hover {
+    opacity: 0.79;
+}
+
+.form_container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
+
+.form_container-right .form_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.form_container-right .form_subscribe h3 {
+    color: var(--job-text-color);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.form_container-right .form_subscribe .form_images_comp {
+    display: flex;
+    gap: 11.125rem;
+}
+
+.form_container-right .form_subscribe .form_images_comp .form_subscribe-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.form_container-right .form_socials {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.form_container-right .form_socials h3 {
+    color: var(--job-text-color);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.form_container-right .form_socials .form_socials_icons {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
