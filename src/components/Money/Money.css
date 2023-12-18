@@ -1,0 +1,78 @@
+.money {
+    padding: 0 8rem;
+    padding-top: 6.4rem;
+    padding-bottom: 12.8rem;
+}
+
+.money_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money_container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.money_title_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.money_title_container .money_featured {
+    color: var(--blue-btn-bg);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.money_title_container .money_title {
+    width: 52.2rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.money_title_container .money_desc {
+    width: 52.5rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.money_button .money_btn {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--blue-btn-bg);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition-delay);
+}
+
+.money_button .money_btn:hover {
+    gap: 2.4rem;
+    opacity: 0.87;
+}
