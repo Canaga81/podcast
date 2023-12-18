@@ -6,13 +6,17 @@ import Episodes from '../../components/Episodes/Episodes'
 import Comments from '../../components/Comments/Comments'
 import Inbox from '../../components/Inbox/Inbox'
 import Read from '../../components/Read/Read'
-
+import { motion } from 'framer-motion'
 
 const Home = () => {
 
   return (
 
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.6 }}
+    >
 
       <Hero />
       <Companies />
@@ -22,8 +26,8 @@ const Home = () => {
       <Comments />
       <Inbox />
       <Read />
-      
-    </>
+
+    </motion.div>
 
   )
 
