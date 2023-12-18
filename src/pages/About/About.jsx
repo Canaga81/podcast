@@ -1,8 +1,11 @@
 import React from 'react'
+import Finsweet from '../../components/Finsweet/Finsweet'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Finsweet />
+    </>
   )
 }
 

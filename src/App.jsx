@@ -23,6 +23,7 @@ function App() {
         <Header />
 
         <Routes>
+
           <Route path='/' element={<Home />} />
           <Route path='/podcasts' element={<Podcasts />} />
           <Route path='/host' element={<Host />} />
@@ -32,6 +33,7 @@ function App() {
           <Route path='/incard' element={<InCard />}>
             <Route path=':incardId' element={<InCard />} />
           </Route>
+          
         </Routes>
 
         <Sponsors />
