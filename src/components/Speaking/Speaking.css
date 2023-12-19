@@ -48,23 +48,25 @@
 }
 
 .speaking_left .speaking_title_text .speaking_title {
-    width: 41.1rem;
+    max-width: 41.1rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 3.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    text-align: center;
 }
 
 .speaking_left .speaking_title_text .speaking_text {
-    width: 41.1rem;
+    max-width: 41.1rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    text-align: center;
 }
 
 .speaking_left .speaking_left-line_green {

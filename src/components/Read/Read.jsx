@@ -13,7 +13,7 @@ const Read = () => {
                         <button className='read_blue-btn'>See More</button>
                     </div>
                     <div className="read_left-card_body">
-                        <img src={shapes_container} alt="" />
+                        <img className='read_img' src={shapes_container} alt="" />
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ const Read = () => {
                         return (
                             <div key={i} id={item.id} className="read_right_card">
                                 <div className="read_right_card_image">
-                                    <img src={item.image} alt="" />
+                                    <img className='read_img' src={item.image} alt="" />
                                 </div>
                                 <div className="read_right_card_text">
                                     <h3>{item.title}</h3>

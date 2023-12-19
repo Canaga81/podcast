@@ -31,7 +31,7 @@
 }
 
 .episodes_container-top_left p {
-    width: 37.1rem;
+    max-width: 37.1rem;
     height: 5.4rem;
     color: var(--black-color);
     font-family: Inter;
@@ -65,6 +65,7 @@
 
 .episodes_container-bottom .cards_container {
     display: flex;
+    justify-content: center;
     align-items: center;
     column-gap: 5.5rem;
     row-gap: 6rem;

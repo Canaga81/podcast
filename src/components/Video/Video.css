@@ -22,7 +22,7 @@
 }
 
 .video_left .video_youtube {
-    width: 31.8rem;
+    max-width: 31.8rem;
     min-width: 20rem;
     height: 11.2rem;
     background-color: var(--blue-btn-bg);
@@ -67,7 +67,7 @@
 }
 
 .video_right .video_title_text .video_title {
-    width: 35.3rem;
+    max-width: 35.3rem;
     color: var(--text-black-color);
     font-family: Inter;
     font-size: 3.2rem;
@@ -86,7 +86,7 @@
 }
 
 .video_right .video_title_text .video_text {
-    width: 40.9rem;
+    max-width: 40.9rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -118,4 +118,3 @@
         display: none;
     }
 }
-
