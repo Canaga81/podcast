@@ -79,3 +79,91 @@
 .inbox_container .inbox_right svg {
     margin-top: 12.9rem;
 }
+
+@media(max-width: 1280px) {
+
+    .inbox {
+        margin-top: 12.8rem;
+        padding: 0 2rem;
+        padding-bottom: 12.8rem;
+    }
+
+}
+
+@media(max-width: 930px) {
+
+    .inbox_left svg {
+        display:none;
+    }
+
+    .inbox_right svg {
+        display:none;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .inbox {
+        padding: 0 0rem;
+    }
+
+    .inbox_container {
+        width: 100%;
+        height: 31rem;
+        background-color: var(--blue-btn-bg);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .inbox_container {
+        padding: 0 1rem;
+    }
+
+}
+
+@media(max-width: 455px) {
+
+    .inbox_container .inbox_center .inbox_title h2 {
+        font-size: 2.7rem;
+    }
+
+    .inbox_container .inbox_center .inbox_input_button .input_email {
+        width: 27.7rem;
+    }
+
+    .inbox_container .inbox_center .inbox_input_button .btn_sub {
+        width: 8.4rem;
+    }
+
+}
+
+@media(max-width: 400px) {
+
+    .inbox_container .inbox_center .inbox_input_button .input_email {
+        width: 24.6rem;
+    }
+
+    .inbox_container .inbox_center .inbox_input_button .btn_sub {
+        width: 6.4rem;
+        font-size: 1.4rem;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    .inbox_container .inbox_center .inbox_input_button .input_email {
+        width: 21.7rem;
+    }
+
+    .inbox_container .inbox_center .inbox_input_button .btn_sub {
+        width: 5.4rem;
+        font-size: 1.2rem;
+    }
+    
+}

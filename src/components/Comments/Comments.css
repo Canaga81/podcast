@@ -100,3 +100,11 @@ body{
     align-items: center;
     gap: 6rem;
 }
+
+@media(max-width: 1280px) {
+    .comments {
+        padding: 0 0;
+    }
+
+    
+}

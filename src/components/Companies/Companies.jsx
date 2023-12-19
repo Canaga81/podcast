@@ -26,9 +26,9 @@ const Companies = () => {
                     spaceBetween={100}
                     loop
                     slidesPerView={5}
-                    // autoplay={{
-                    //     delay: 500
-                    // }}
+                    autoplay={{
+                        delay: 500
+                    }}
                     modules={[Autoplay]}
                     pagination={{
                         clickable: true,

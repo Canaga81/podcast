@@ -28,7 +28,7 @@
 }
 
 .cartItem_title_text_icon .cartItem_title {
-    width: 41.499rem;
+    max-width: 41.499rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 2.4rem;
@@ -38,7 +38,7 @@
 }
 
 .cartItem_title_text_icon .cartItem_text {
-    width: 37.4602rem;
+    max-width: 37.4602rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -75,4 +75,9 @@
 
 .cartItem_title_text_icon .cartItem_icon_listen .listen_text:hover {
     opacity: 0.81;
+}
+
+.cartItem_Image {
+    width: 100% !important;
+    height: 100% !important;
 }
