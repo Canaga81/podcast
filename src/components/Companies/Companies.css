@@ -10,11 +10,37 @@
 }
 
 .compa-img {
-    width: 156px;
-    height: 30px;
+    width: 15.6rem;
+    height: 3rem;
 }
 
 .compa-img img {
     width: 100%;
     height: 100%;
+}
+
+@media(max-width: 768px) {
+    
+    .companies {
+        padding: 0 2rem;
+        padding-bottom: 12rem;
+    }
+
+}
+@media(max-width: 480px) {
+
+    .companies {
+        padding: 0 2rem;
+        padding-bottom: 12rem;
+    }
+
+    .companies_images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .compa-img {
+        margin: 0 auto;
+    }
+
 }

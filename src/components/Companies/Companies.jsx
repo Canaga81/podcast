@@ -26,12 +26,41 @@ const Companies = () => {
                     spaceBetween={100}
                     loop
                     slidesPerView={5}
-                    autoplay = {{
-                        delay: 500
-                    }}
+                    // autoplay={{
+                    //     delay: 500
+                    // }}
                     modules={[Autoplay]}
+                    pagination={{
+                        clickable: true,
+                    }}
                     // onSlideChange={() => console.log('slide change')}
                     // onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        480: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        610: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 100,
+                        },
+                        968: {
+                            slidesPerView: 3,
+                            spaceBetween: 100,
+                        },
+                        1280: {
+                            slidesPerView: 5,
+                            spaceBetween: 100,
+                        },
+                    }}
                 >
 
                     <div className="copmanies_container">
