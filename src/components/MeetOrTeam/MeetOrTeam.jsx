@@ -3,6 +3,7 @@ import './MeetOrTeam.css'
 import meetCards from '../../images/MeetTeamCards'
 
 const MeetOrTeam = () => {
+
     return (
         <section className='meetOrTeam'>
             <div className="meetOrTeam_container">
@@ -12,7 +13,7 @@ const MeetOrTeam = () => {
                         meetCards.map((card, idx) => {
                             return (
                                 <div className="meetOrTeam_card" key={idx}>
-                                    <img src={card.image} alt={card.name} />
+                                    <img className='meetOrTeam_img' src={card.image} alt={card.name} />
                                     <div className="meetOrTeam_card_name_job_icons">
                                         <h3 className='meetOrTeam_name'>{card.name}</h3>
                                         <small className='meetOrTeam_job'>{card.job}</small>
@@ -57,6 +58,7 @@ const MeetOrTeam = () => {
             </div>
         </section>
     )
+
 }
 
 export default MeetOrTeam
