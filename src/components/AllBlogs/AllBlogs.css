@@ -25,3 +25,12 @@
     flex-wrap: wrap;
     row-gap: 6.4rem;
 }
+
+@media(max-width: 1280px) {
+
+    .allBlogs {
+        padding: 0 2rem;
+        margin-bottom: 7rem;
+    }
+
+}
