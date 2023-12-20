@@ -1,0 +1,20 @@
+@media(max-width: 435px) {
+
+    .episodes_container-top_left h2 {
+        font-size: 2.7rem;
+        padding-left: 1rem;
+    }
+
+    .episodes_container-top_left {
+        padding-left: 1rem;
+    }
+    
+}
+
+@media(max-width: 330px) {
+
+    .episodes_container-top_left h2 {
+        margin: 0 auto;
+    }
+    
+}
