@@ -1,4 +1,3 @@
-import React from 'react'
 import './DetailedCard.css'
 import Makers from '../Makers/Makers'
 import InformationPerson from '../InformationPerson/InformationPerson'
@@ -11,8 +10,11 @@ const DetailedCard = (props) => {
     return (
 
         <>
+
             <section className='detailedCard'>
+
                 <div className="detailedCard_container">
+
                     <div className="detailedCard_container-left">
                         <div className="detailedCard_container-left_image">
                             <img src={inCard.image} alt="" />
@@ -32,15 +34,16 @@ const DetailedCard = (props) => {
                             <p className="detailed_time">53:32</p>
                         </button>
                     </div>
+                    
                 </div>
+
             </section>
 
             <Makers />
             <InformationPerson />
             <Episodes />
+
         </>
-
-
 
     )
 }

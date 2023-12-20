@@ -21,7 +21,7 @@
 }
 
 .makers_container-left .makers_left_text_cont .makers_title {
-    width: 38.7rem;
+    max-width: 38.7rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 3.2rem;
@@ -31,7 +31,7 @@
 }
 
 .makers_container-left .makers_left_text_cont .makers_desc {
-    width: 63.6rem;
+    max-width: 63.6rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -45,7 +45,7 @@
 }
 
 .makers_container-left .makers_left_text_cont .makers_ul .makers_li {
-    width: 44.8607rem;
+    max-width: 44.8607rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -67,4 +67,24 @@
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
+}
+
+@media(max-width: 1280px) {
+
+    .makers {
+        padding: 0 2rem;
+        padding-bottom: 7rem;
+    }
+
+}
+@media(max-width: 1000px) {
+
+    .makers_container-right {
+        display: none;
+    }
+
+    .makers_container {
+        justify-content: center;
+    }
+
 }

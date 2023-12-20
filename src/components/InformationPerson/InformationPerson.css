@@ -3,7 +3,6 @@
     padding-bottom: 12.8rem;
 }
 
-
 .informationPerson_container {
     display: flex;
     align-items: center;
@@ -12,7 +11,7 @@
 
 .informationPerson_container .information_blue_div {
     width: 1.6rem;
-    height: 21.1rem;
+    min-height: 21.1rem;
     background: var(--blue-btn-bg);
 }
 
@@ -53,11 +52,32 @@
 }
 
 .informationPerson_container .information_desc .information_desc-p {
-    width: 32rem;
+    max-width: 32rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+@media(max-width: 1280px) {
+
+    .informationPerson {
+        padding: 0 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .informationPerson_container {
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 475px) {
+
+    .informationPerson_container .information_blue_div {
+        display: none;
+    }
+
 }
