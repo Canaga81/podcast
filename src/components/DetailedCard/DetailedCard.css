@@ -8,11 +8,13 @@
     display: flex;
     align-items: center;
     gap: 4.8rem;
+    margin-top: 6.4rem;
 }
+
 
 .detailedCard_container-left .detailedCard_container-left_image {
     width: 61.6rem;
-    height: 40rem;
+    min-height: 40rem;
 }
 
 .detailedCard_container-left .detailedCard_container-left_image img {
@@ -44,7 +46,7 @@
 }
 
 .detailedCard_container-right .detailed_container_title_text .detailedCard_title_h2 {
-    width: 61.6rem;
+    max-width: 61.6rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 3.2rem;
@@ -54,7 +56,7 @@
 }
 
 .detailedCard_container-right .detailed_desc .detailed_desc_p {
-    width: 61.4rem;
+    max-width: 61.4rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -69,7 +71,7 @@
     gap: 1.2rem;
     padding: 1.2rem 3.2rem;
     background-color: var(--blue-btn-bg);
-    width: 20.7rem;
+    max-width: 20.7rem;
     height: 5.6rem;
     border: none;
     outline: none;
@@ -97,4 +99,25 @@
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
+}
+
+
+@media(max-width: 1280px) {
+
+    .detailedCard {
+        padding: 7rem 2rem;
+    }
+
+}
+
+@media(max-width: 1000px) {
+
+    .detailedCard_container-left {
+        display: none;
+    }
+
+    .detailedCard_container {
+        justify-content: center;
+    }
+
 }

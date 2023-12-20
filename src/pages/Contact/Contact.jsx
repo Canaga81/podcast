@@ -1,8 +1,8 @@
-import React from 'react'
 import Form from '../../components/Form/Form'
 import { motion } from 'framer-motion'
 
 const Contact = () => {
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,6 +12,7 @@ const Contact = () => {
       <Form />
     </motion.div>
   )
+  
 }
 
 export default Contact
