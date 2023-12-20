@@ -1,6 +1,5 @@
 .money {
     padding: 0 8rem;
-    padding-top: 6.4rem;
     padding-bottom: 12.8rem;
 }
 
@@ -8,6 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 12.8rem;
+}
+
+.money_img {
+    width: 100%;
+    height: 100%;
 }
 
 .money_container-left {
@@ -35,7 +40,7 @@
 }
 
 .money_title_container .money_title {
-    width: 52.2rem;
+    max-width: 52.2rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 3.2rem;
@@ -45,7 +50,7 @@
 }
 
 .money_title_container .money_desc {
-    width: 52.5rem;
+    max-width: 52.5rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -75,4 +80,26 @@
 .money_button .money_btn:hover {
     gap: 2.4rem;
     opacity: 0.87;
+}
+
+
+@media(max-width: 1280px) {
+
+    .money {
+        padding: 0 2rem;
+        margin-bottom: 12.8rem;
+    }
+
+}
+
+@media(max-width: 840px) {
+
+    .money_container-right {
+        display: none;
+    }
+
+    .money_container-left {
+        margin: 0 auto;
+    }
+
 }

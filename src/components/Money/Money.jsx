@@ -27,7 +27,7 @@ const Money = () => {
                     </div>
                 </div>
                 <div className="money_container-right">
-                    <img src={people_image} />
+                    <img className='money_img' src={people_image} />
                 </div>
             </div>
         </section>
