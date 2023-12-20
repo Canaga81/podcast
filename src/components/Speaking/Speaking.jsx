@@ -6,6 +6,7 @@ import speaking_single_line from '../../images/speaking_single_line.png';
 import speaking_lines from '../../images/speaking_lines.png';
 
 const Speaking = () => {
+
     return (
         <section className='speaking'>
             <div className="speaking_container">
@@ -35,6 +36,7 @@ const Speaking = () => {
             </div>
         </section>
     )
+    
 }
 
 export default Speaking

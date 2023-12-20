@@ -12,7 +12,7 @@ const Video = () => {
 
                 <div className="video_left">
                     <div className="video_image">
-                        <img src={man_web_photo} alt="" />
+                        <img className='man_web_photo' src={man_web_photo} alt="" />
                     </div>
                     <div className="video_youtube">
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="30" viewBox="0 0 48 30" fill="none">

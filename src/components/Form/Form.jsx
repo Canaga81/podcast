@@ -38,7 +38,7 @@ const Form = () => {
                                 <img src={Apple_Podcast_item} />
                                 <img src={Google_Podcast_item} />
                             </div>
-                            <div className="form_subscribe-item">
+                            <div className="form_subscribe-item item_2">
                                 <img src={Soundcloud_item} />
                                 <img src={Spotify_item} />
                             </div>

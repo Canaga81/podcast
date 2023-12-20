@@ -97,3 +97,12 @@
     }
 
 }
+
+@media(max-width: 450px) {
+
+    .episodes_container-top_right .episodes_btn {
+        padding: 1rem 2.4rem;
+        margin-left: 0.6rem;
+    }
+
+}
