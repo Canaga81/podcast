@@ -17,7 +17,7 @@
 }
 
 .dream_container-left h2 {
-    width: 32.2471rem;
+    max-width: 32.2471rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 3.2rem;
@@ -27,7 +27,7 @@
 }
 
 .dream_container-left .dream_slim_text {
-    width: 52.2rem;
+    max-width: 52.2rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 1.6rem;
@@ -37,7 +37,7 @@
 }
 
 .dream_container-left .dream_bold_text {
-    width: 52.2rem;
+    max-width: 52.2rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 16px;
@@ -47,7 +47,7 @@
 }
 
 .dream_container-right .dream_wave_bg {
-    width: 38.4rem;
+    max-width: 38.4rem;
     height: 12.4rem;
     background-color: var(--blue-btn-bg);
     display: flex;
@@ -63,4 +63,58 @@
     position: absolute;
     bottom: 2.4rem;
     right: 0;
+}
+
+.man_speaking {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 1280px) {
+
+    .dream {
+        padding: 0 2rem;
+    }
+
+    .dream_wave_bg{
+        display: none !important;
+    }
+
+}
+
+@media(max-width: 1230px) {
+
+    .line_bold_purple {
+        display: none;
+    }
+
+    .dream_container {
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media(max-width: 1000px) {
+
+    .dream_container-right {
+        display: none;
+    }
+
+    .dream_container-left {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .dream_container-left h2 {
+        text-align: center;
+    }
+    
+    .dream_container-left .dream_slim_text {
+        text-align: center;
+    }
+    
+    .dream_container-left .dream_bold_text {
+        text-align: center;
+    }
+
 }

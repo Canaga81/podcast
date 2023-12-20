@@ -34,9 +34,9 @@ const Dream = () => {
                 </div>
 
                 <div className="dream_container-right">
-                    <img src={man_speaking} alt="" />
+                    <img src={man_speaking} className='man_speaking' alt="" />
                     <div className="dream_wave_bg">
-                        <img src={bg_wave} alt="" />
+                        <img src={bg_wave} className='bg_wave' alt="" />
                     </div>
                 </div>
 

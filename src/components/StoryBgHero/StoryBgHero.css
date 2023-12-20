@@ -9,3 +9,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media(max-width: 777px) {
+
+    .story_bg_hero_container {
+        background-size: cover;
+        margin-bottom: 5rem;
+        height: 70rem;
+    }
+
+}
