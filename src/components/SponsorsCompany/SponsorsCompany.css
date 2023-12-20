@@ -10,7 +10,7 @@
 }
 
 .sponsorsCompany_container .sponsorsCompany_head_title {
-    width: 41rem;
+    max-width: 41rem;
     color: var(--black-color);
     font-family: Inter;
     font-size: 4.8rem;
@@ -58,7 +58,7 @@
 }
 
 .sponsorsCompany_card.blue_card .sponsorsCompany_card_title-h3 {
-    width: 20.8rem;
+    max-width: 20.8rem;
     color: var(--input-bg-color);
     font-family: Inter;
     font-size: 2.4rem;
@@ -86,4 +86,33 @@
     width: 3.9rem;
     height: 0.4rem;
     background-color: var(--green-bg-color);
+}
+
+@media(max-width: 1280px) {
+
+    .sponsorsCompany {
+        padding: 6rem 2rem;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    .sponsorsCompany_container .sponsorsCompany_head_title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .sponsorsCompany_cards .sponsorsCompany_card {
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width: 400px) {
+
+    .sponsorsCompany_container .sponsorsCompany_head_title {
+        font-size: 4.2rem;
+    }
+
 }

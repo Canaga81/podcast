@@ -51,3 +51,15 @@
     }
 
 }
+
+@media(max-width: 870px) {
+
+    .aboutInfo_container_item {
+        align-items: center;
+    }
+
+    .aboutInfo_title_desc {
+        align-items: center;
+    }
+
+}
