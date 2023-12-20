@@ -9,7 +9,7 @@ const AboutTeam = () => {
         <div className='aboutTeam'>
             <div className="aboutTeam_container">
                 <h2>A few words about our team</h2>
-                <img src={team_about_image} />
+                <img className='aboutTeam_img' src={team_about_image} />
                 <div className="aboutTeam_content">
                     <p className='aboutTeam_desc'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

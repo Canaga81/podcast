@@ -18,7 +18,7 @@ const Finsweet = () => {
                     </button>
                 </div>
                 <div className="finsweet_container-right">
-                    <img src={about_mic_big_image} />
+                    <img className='finsweet_img' src={about_mic_big_image} />
                 </div>
             </div>
         </div>
