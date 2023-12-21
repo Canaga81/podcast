@@ -1,4 +1,3 @@
-import React from 'react'
 import blogCardsData from '../../images/BlogCardsData'
 import { useParams } from 'react-router-dom'
 import BlogAtmosphere from '../../components/BlogAtmosphere/BlogAtmosphere';

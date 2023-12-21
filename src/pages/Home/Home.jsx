@@ -8,6 +8,7 @@ import Inbox from '../../components/Inbox/Inbox'
 import Read from '../../components/Read/Read'
 import { motion } from 'framer-motion'
 
+
 const Home = () => {
 
   return (
