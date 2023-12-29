@@ -96,11 +96,11 @@ body {
     opacity: 0.75;
 }
 
-.comments_container-bottom .comments_container_items {
+/* .comments_container-bottom .comments_container_items {
     display: flex;
     align-items: center;
     gap: 6rem;
-}
+} */
 
 @media(max-width: 1280px) {
 

@@ -158,6 +158,11 @@
     height: 3.2rem;
 }
 
+.toastText {
+    font-size: 1.6rem !important;
+    font-weight: 600;
+}
+
 @media(max-width: 1280px) {
 
     .form {

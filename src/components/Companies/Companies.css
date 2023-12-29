@@ -3,11 +3,11 @@
     padding-bottom: 12rem;
 }
 
-.companies_images {
+/* .companies_images {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 .compa-img {
     width: 15.6rem;
@@ -34,10 +34,10 @@
         padding-bottom: 12rem;
     }
 
-    .companies_images {
+    /* .companies_images {
         display: flex;
         justify-content: center;
-    }
+    } */
 
     .compa-img {
         margin: 0 auto;

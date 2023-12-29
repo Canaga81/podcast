@@ -1,17 +1,17 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
-import Home from './pages/Home/Home'
-import Podcasts from './pages/Podcasts/Podcasts'
-import Host from './pages/Host/Host'
-import About from './pages/About/About'
-import Blog from './pages/Blog/Blog'
-import Contact from './pages/Contact/Contact'
-import Header from './components/Header/Header'
-import Sponsors from './components/Sponsors/Sponsors'
-import Footer from './components/Footer/Footer'
-import Copyright from './components/Copyright/Copyright'
-import InCard from './pages/InCard/InCard'
-import AllBlogItem from './pages/AllBlogItem/AllBlogItem'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home/Home';
+import Podcasts from './pages/Podcasts/Podcasts';
+import Host from './pages/Host/Host';
+import About from './pages/About/About';
+import Blog from './pages/Blog/Blog';
+import Contact from './pages/Contact/Contact';
+import Header from './components/Header/Header';
+import Sponsors from './components/Sponsors/Sponsors';
+import Footer from './components/Footer/Footer';
+import Copyright from './components/Copyright/Copyright';
+import InCard from './pages/InCard/InCard';
+import AllBlogItem from './pages/AllBlogItem/AllBlogItem';
 
 function App() {
 
