@@ -1,7 +1,7 @@
 import blogCardsData from '../../images/BlogCardsData'
 import { useParams } from 'react-router-dom'
 import BlogAtmosphere from '../../components/BlogAtmosphere/BlogAtmosphere';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion"
 
 const AllBlogItem = () => {
 
@@ -17,7 +17,7 @@ const AllBlogItem = () => {
         >
             <BlogAtmosphere allblogitem={allblogitem} />
         </motion.div>
-        
+
     )
 }
 
